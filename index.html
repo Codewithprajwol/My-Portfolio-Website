@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajwol Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+
 </head>
+
 <body>
-   <nav id="desktop-nav">
-    <div class="logo">Prajwol Shrestha</div>
-    <div>
-        <ul class="nav-link">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experiences">Experiences</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-   </nav>
-   <nav id="hamburger-nav">
-    <div class="logo">Prajwol Shrestha</div>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="togglemenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+    <nav id="desktop-nav">
+        <div class="logo">Prajwol Shrestha</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="menu-links">
-            <li><a href="#about"onclick="togglemenu()">About</a></li>
-            <li><a href="#experiences"onclick="togglemenu()">Experiences</a></li>
-            <li><a href="#project"onclick="togglemenu()">Project</a></li>
-            <li><a href="#contact"onclick="togglemenu()">Contact</a></li>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Prajwol Shrestha</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experiences" onclick="togglemenu()">Experiences</a></li>
+                <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
         </div>
-    </div>
-   </nav>
-   <section id="profile">
-    <div class="section-container">
-    <div class="section__pic-container">
-        <img src="/assets/prajwol.png" alt="Prajwol profile picture">
-    </div>
-    <div class="section__text">
-        <p class="section__text__p1">Hello,I'm</p>
-        <h1 class="title">Prajwol Shrestha</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-            <button class="btn btn-color-2" onclick='window.open("./assets/prajwol resume.pdf")'>Download CV</button>
-            <button class="btn btn-color-1" onclick='location.href="./#contact"'>Contact Info</button>
-        </div>
-        <div id="socials-container">
-            <img src="./assets/linkedin.png" alt="My linked-in Profile" class="icon" onclick="location.href='https:www.linkedin.com/in/prajwolstha'">
-            <img src="./assets/github.png" alt="My linked-in Profile" class="icon" onclick="location.href='https:github.com/Codewithprajwol'">
-    
-        </div>
-    </div>
-</div>
-    
-   </section>
-   <section id="about">
-    <p class="section__text__p1">Get TO Know More</p>
-    <h1 class="title">About Me</h1>
-       <div class="section-container">
-        <div class="section__pic-container">
-            <img class="about-pic" src="./assets/prajwoll.png" alt="Profile image">
-        </div>
-        <div class="about-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <img class="icon" src="./assets/experience.png" alt="experiences">
-                <h3>Experiences</h3>
-                <p>Fresher<br>Frontend Development</p>
+    </nav>
+    <section id="profile">
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/assets/prajwol.png" alt="Prajwol profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello,I'm</p>
+                <h1 class="title">Prajwol Shrestha</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick='window.open("./assets/prajwol resume.pdf")'>Download
+                        CV</button>
+                    <button class="btn btn-color-1" onclick='location.href="./#contact"'>Contact Info</button>
                 </div>
-                <div class="details-container">
-                     <img class="icon" src="./assets/education.png" alt="education">
-                <h3>Education</h3>
-                <p>Current bachelor’s student<br>Bsc.CSIT Bachelor Degree</p>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My linked-in Profile" class="icon"
+                        onclick='location.href="https://www.linkedin.com/in/prajwolstha"'>
+                    <img src="./assets/github.png" alt="My linked-in Profile" class="icon"
+                        onclick='location.href="https://github.com/Codewithprajwol"'>
+
                 </div>
+                <a href="https://google.com">google</a>
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get TO Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img class="about-pic" src="./assets/prajwoll.png" alt="Profile image">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img class="icon" src="./assets/experience.png" alt="experiences">
+                        <h3>Experiences</h3>
+                        <p>Fresher<br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img class="icon" src="./assets/education.png" alt="education">
+                        <h3>Education</h3>
+                        <p>Current bachelor’s student<br>Bsc.CSIT Bachelor Degree</p>
+                    </div>
                 </div>
                 <div class="text-container">
-                    <p>Hello, I'm Prajwol Shrestha, a developer fluent in JavaScript familiar with C and C++. My expertise spans various IT constructs including Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Database Management Systems. In web development, I excel in CSS, SASS, DOM Manipulation, AJAX, and Async JS, alongside API integration. Proficient in Git, I leverage tools like VSCode, Postman, and Chrome DevTools for efficient coding. I have workde with frameworks like Tailwind and Bootstrap and effortlessly deploy projects on platforms like Github and Netlify. With a strong grasp of MySQL, I bring a comprehensive skill set to any project.
+                    <p>Hello, I'm Prajwol Shrestha, a developer fluent in JavaScript familiar with C and C++. My
+                        expertise spans various IT constructs including Data Structures, Algorithms, Object-Oriented
+                        Programming, Operating Systems, and Database Management Systems. In web development, I excel in
+                        CSS, SASS, DOM Manipulation, AJAX, and Async JS, alongside API integration. Proficient in Git, I
+                        leverage tools like VSCode, Postman, and Chrome DevTools for efficient coding. I have workde
+                        with frameworks like Tailwind and Bootstrap and effortlessly deploy projects on platforms like
+                        Github and Netlify. With a strong grasp of MySQL, I bring a comprehensive skill set to any
+                        project.
 
 
 
@@ -87,10 +101,10 @@
 
                     </p>
                 </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experiences'">
         </div>
-        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experiences'">
-       </div>
-       
+
     </section>
     <section id="experiences">
         <p class="section__text__p1">Explore My</p>
@@ -135,7 +149,7 @@
                                 <p>Basics</p>
                             </div>
                         </article>
-                       
+
                     </div>
                 </div>
                 <div class="details-container">
@@ -169,8 +183,8 @@
                                 <p>Experienced</p>
                             </div>
                         </article>
-                        
-                       
+
+
                     </div>
                 </div>
             </div>
@@ -182,67 +196,74 @@
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/focus on today.png" alt="Project1" class="project-img">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/focus on today.png" alt="Project1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Codewithprajwol/JS-Project_FocusOnToday'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://presentpeak.netlify.app/'">Live Demo</button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Codewithprajwol/JS-Project_FocusOnToday'">Github</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://presentpeak.netlify.app/'">Live Demo</button>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/cocweb.png" alt="Project2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Codewithprajwol/Coc_res_web'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://clashofweb.netlify.app'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Meteorological.png" alt="Project3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Codewithprajwol/Weather_Forecasting'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://meteorologicalprediction.netlify.app'">Live Demo</button>
+                    </div>
                 </div>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/cocweb.png" alt="Project2" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Codewithprajwol/Coc_res_web'">Github</button>
-                    <button class="btn btn-color-2 project-btn"  onclick="location.href='https://clashofweb.netlify.app'">Live Demo</button>
-                </div>
-            </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Meteorological.png" alt="Project3" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Codewithprajwol/Weather_Forecasting'">Github</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://meteorologicalprediction.netlify.app'">Live Demo</button>
-                </div>
-            </div>
-        </div>
         </div>
         <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'">
     </section>
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-       <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-            <img src="./assets/email.png" alt="Email icon" class="email-icon icon contact-icon ">
-            <p><a href="mailto:shresthaprajwol161@gmail.com">shresthaprajwol161@gmail.com</a></p>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="email-icon icon contact-icon ">
+                <p><a href="mailto:shresthaprajwol161@gmail.com">shresthaprajwol161@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a target="_blank" href="https://www.linkedin.com/in/prajwolstha">Linkedin</a></p>
+            </div>
         </div>
-        <div class="contact-info-container">
-            <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
-            <p><a target="_blank" href="https://www.linkedin.com/in/prajwolstha">Linkedin</a></p>
-        </div>
-       </div>
     </section>
     <footer>
         <nav>
-          <div class="nav-links-container">
-            <ul class="nav-link">
-                <li><a href="#about">About</a></li>
-            <li><a href="#experiences">Experiences</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <p>Copyright &#169; 2024 Prajwol Shrestha. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
